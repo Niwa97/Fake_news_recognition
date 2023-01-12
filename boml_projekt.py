@@ -17,7 +17,7 @@ from sklearn.metrics import accuracy_score, balanced_accuracy_score, recall_scor
 
 ########## PassiveAggressive ##########
 
-dataframe = pandas.read_csv('drive/MyDrive/news0.csv') #Reading the data
+dataframe = pandas.read_csv('drive/MyDrive/news.csv') #Reading the data
 labels = dataframe.label
 text = dataframe.text
 
@@ -48,7 +48,7 @@ print(f'\n')
 
 ########## Stochastic Gradient Descent ##########
 
-dataframe2 = pandas.read_csv('drive/MyDrive/news0.csv') #Reading the data
+dataframe2 = pandas.read_csv('drive/MyDrive/news.csv') #Reading the data
 labels2 = dataframe2.label
 text2 = dataframe2.text
 
